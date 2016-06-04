@@ -1,0 +1,27 @@
+{
+  "name": "horizon-nghouston",
+  "version": "1.0.0",
+  "description": "App and Slides for horizon talk at ngHouston",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahopa/Horizon-ngHouston.git"
+  },
+  "keywords": [
+    "Horizon",
+    "ngHouston",
+    "talks"
+  ],
+  "author": "mahopa@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahopa/Horizon-ngHouston/issues"
+  },
+  "homepage": "https://github.com/mahopa/Horizon-ngHouston#readme",
+  "dependencies": {
+    "horizon": "^1.1.1"
+  }
+}
