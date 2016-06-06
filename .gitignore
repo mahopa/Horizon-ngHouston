@@ -2,6 +2,10 @@
 ################
 node_modules/**
 
+# Database Data #
+#################
+App/rethinkdb_data/**
+
 # Compiled source #
 ###################
 *.com
