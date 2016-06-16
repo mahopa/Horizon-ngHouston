@@ -92,3 +92,6 @@ token_secret = "OE0kpEesYjV7IfOfOP3+EwgJJNujzMDXpu7JUqtYmdEWdazITvBH+dpO8NY4CtJU
 # [auth.twitch]
 # id = "0000000000000000000000000000000"
 # secret = "0000000000000000000000000000000"
+
+# [groups.default.rules.read_current_user]
+# template = "collection('users').find({id: userId()})"
