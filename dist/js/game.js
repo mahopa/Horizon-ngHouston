@@ -67,10 +67,13 @@ var updateMonsterPlotPosition = function(monsterDb){
 };
 
 // Subscribe to changes and update
-players.watch().subscribe(updatePlayersPlotPositions);
+players
+.watch()
+.subscribe(updatePlayersPlotPositions);
 
 monsters.watch().subscribe(function(change){
 	change.map(updateMonsterPlotPosition);
+	console.log(change);
 });
 
 // Create the canvas
